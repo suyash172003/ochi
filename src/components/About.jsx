@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='rounded-tl-3xl rounded-tr-3xl w-full h-screen bg-[#CDEA68]'>
+    <div scroll-smooth data-scroll data-scroll-section data-scroll-speed="-.00003234" className='rounded-tl-3xl rounded-tr-3xl w-full h-screen bg-[#CDEA68]'>
         <div className='px-[10vh] py-[6vh] font-["NeureMontreal"] text-6xl text-black font-semibold'>
           <p>Ochi is a strategic presentation agency for forward-thinking businesses that need to raise funds, 
             sell products, explain complex ideas, 

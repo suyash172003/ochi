@@ -1,14 +1,16 @@
+import { motion } from 'framer-motion';
 import React from 'react'
 import { GoArrowUpRight } from "react-icons/go";
 
+
 function Landing() {
   return (
-    <div className='w-full h-screen bg-black'>
+    <div scroll-smooth data-scroll data-scroll-section data-scroll-speed="-.9" className='w-full h-screen bg-black'>
         <div className='text-structure ml-10 px-10 masker pt-16'>{["We Create","Eye-Opening","Presentation"].map((items,index)=>{
            return(
             <div className='masker'>
                 <div className="w-fit flex items-end overflow-hidden">
-                    {index===1 && (<div className='mr-5 w-[9vw] h-[4vw] rounded-md -top-[0.80vw] relative bg-red-400'></div>)}
+                    {index===1 && (<motion.div initial={{width:0}} animate={{width:100}} transition={{ease:[0.76, 0, 0.24, 1]}}className='mr-5 w-[9vw] h-[4vw] rounded-md -top-[0.80vw] relative bg-red-400'></motion.div>)}
                     <h1 className="pt-2 text-[5.5vw] uppercase leading-[5.5vw] font-['FoundersGrostek'] font-semibold tracking-tight">{items}</h1>
                 </div>
             </div>
