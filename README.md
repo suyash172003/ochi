@@ -1,12 +1,22 @@
-<<<<<<< HEAD
-# React + Vite
+# Ochi Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ochi is a web-based application designed for creating and managing presentations with ease. Built using **React.js** and **Framer Motion**, it offers a smooth and interactive user experience for building visually appealing presentations.
 
-Currently, two official plugins are available:
+## Features
+- **Dynamic Presentation Creation**: Create new presentations with customizable templates using a modern React interface.
+- **Slide Management**: Add, edit, and delete slides with diverse content types (text, images, videos).
+- **Real-time Collaboration**: Collaborate with team members in real time.
+- **Export Options**: Easily export presentations in various formats (PDF, PPTX).
+- **Smooth Animations**: Enhance user interaction with Framer Motion for fluid transitions and animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# ochi
->>>>>>> ec06838119ef8d5e756bf38ee06e7d09ed1824f4
+## Technologies Used
+- **React.js**: For building the user interface and managing state.
+- **Framer Motion**: For implementing animations and transitions.
+- **HTML**: For structuring the content of the web pages.
+- **CSS**: For styling the application.
+- **Bootstrap**: For responsive design and UI components (optional, if used).
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/ochi-website.git
