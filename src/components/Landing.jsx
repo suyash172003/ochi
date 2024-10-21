@@ -9,9 +9,10 @@ function Landing() {
         <div className='text-structure ml-10 px-10 masker pt-16'>{["We Create","Eye-Opening","Presentation"].map((items,index)=>{
            return(
             <div className='masker'>
-                <div className="w-fit flex items-end overflow-hidden">
-                    {index===1 && (<motion.div initial={{width:0}} animate={{width:100}} transition={{ease:[0.76, 0, 0.24, 1]}}className='mr-5 w-[9vw] h-[4vw] rounded-md -top-[0.80vw] relative bg-red-400'></motion.div>)}
-                    <h1 className="pt-2 text-[5.5vw] uppercase leading-[5.5vw] font-['FoundersGrostek'] font-semibold tracking-tight">{items}</h1>
+                <div className="w-full flex items-start overflow-hidden">
+                    {index===1 && (<motion.div initial={{width:"0"}} animate={{width:"10%"}} transition={{ease:[0.11, 0, 0.5, 0]}}
+                    className='mr-5 w-[2vw] h-[4.5vw] rounded-md top-[1.5vw] relative bg-[url("https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg")] bg-cover bg-center'></motion.div>)}
+                    <h1 className="pt-1.5 text-[6vw] uppercase leading-none GroteskCondensed-Medium font-semibold tracking-tight">{items}</h1>
                 </div>
             </div>
             )})}

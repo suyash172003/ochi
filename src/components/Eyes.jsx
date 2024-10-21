@@ -29,7 +29,9 @@ function Eyes() {
                 </div>
                 <div className='mt-40 rounded-full w-48 h-48 bg-white'>
                     <div className='mt-10 ml-10 bg-center flex items-center bg-black w-28 h-28 rounded-full'>
+                        
                         <div style={{transform:`rotate(${rotate}deg)` }} className='line w-full h-4'>
+                            
                             <div className='w-4 h-4 rounded-full bg-white'></div>
                         </div>
                         
